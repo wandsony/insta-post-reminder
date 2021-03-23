@@ -1,0 +1,15 @@
+{
+    "name": "insta-post-reminder",
+    "version": "1.0.0",
+    "description": "Série de 4 aulas no YouTube para treinarmos Javascript no Browser e app Desktop",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^12.0.1"
+    }
+}
