@@ -1,15 +1,16 @@
 {
-    "name": "insta-post-reminder",
-    "version": "1.0.0",
-    "description": "Série de 4 aulas no YouTube para treinarmos Javascript no Browser e app Desktop",
-    "main": "main.js",
-    "scripts": {
-        "start": "electron ."
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "electron": "^12.0.1"
-    }
+  "name": "insta-post-reminder",
+  "version": "1.0.0",
+  "description": "Série de 5 aulas no YouTube para treinarmos Javascript no Browser e app Desktop",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/instagram.icns --out=packages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.1"
+  }
 }
